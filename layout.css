@@ -1,0 +1,74 @@
+﻿body {
+   background: linear-gradient(
+                      to left, darkslategray, dimgray
+   );
+   overflow: hidden;
+}
+.mycon{
+    width: 80%;
+    margin: 0 auto;
+}
+.first-div{
+    color: maroon;
+    text-align: center;
+    padding-bottom: 14px;
+    padding-top: 8px;
+    width: 100%
+}
+form{
+    text-align: center;
+    border: 1px;
+    background-color: rgb(161, 85, 206);
+    padding-top: 25px;
+    height: 500px;
+    width: 50%;
+    margin: 0 auto
+}
+label{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: solid;
+    padding-bottom: 20px;
+    display: block;
+    padding-top: 6em;
+}
+input{
+    display: block;
+    width: 95%;
+    background-color: lightgray;
+    margin: 0 auto;
+    height: 30px;
+    text-align: center;
+}
+.btn1{
+    display: solid;
+    text-align: center;
+    width: 40%;
+    height: 40px
+}
+#result{
+    top: 0;
+    position: absolute;
+    right: 10;
+    left: 0;
+    z-index: 1;
+    background-color: darkgray;
+    color: black ;
+    text-align: left;
+    
+}
+ul{
+    padding-right: 5px;
+    text-align: left;
+    text-indent: -1cm;
+    
+}
+ul li{
+    list-style-type: none;
+    tab-size: 5cap;
+} 
+.listspan{
+    font-size: large;
+    font-weight: bolder;
+    
+}
